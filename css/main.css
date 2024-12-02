@@ -1,0 +1,939 @@
+.header {
+  background-color: #232536;
+}
+.header .header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__list {
+  display: flex;
+  gap: 24px;
+  padding: 26px 0;
+  align-items: center;
+}
+
+.menu__list-link {
+  color: #fff;
+}
+
+.menu__list-linkk {
+  color: #232536;
+  background-color: white;
+  padding: 16px 48px;
+  font-size: 18px;
+}
+
+.section__body .section__body-tytle, .about-about .about-tytle, .back-body .back-data, .article-body .body-data, .texts .tytle, .us__body .us__body-tytle, .post__box .post__box-tytle {
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  line-height: 1.3;
+}
+
+.testy-box__one .box__one-tytle, .history__body .history__body-tytle, .texts .tytle .tytle-it, .misia__body .misia__body-tytle, .startup-body .startup-body__tytle {
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  line-height: 1.3;
+}
+
+.join-box .join__tytle, .box__three__tolpa .three-park__tytle, .testy-box__three .box__three, .testy-box__one .box__one-text, .company-box .company__text, .section-tytle, .history__body .history__body-text, .featurs-box .box-tytle, .featurs-tytle, .about-about .about-salka, .about-about .about-text, .back-body .back-text, .back .track .back-tytle, .article-body .body-text, .article-tytle, .texts .top-text, .team__box .team__box-text, .team__box .team__box-tytle, .misia__body .misia__body-text, .us__body .us__body-text, .startup-body .startup-body__text, .startup-tytle, .post__box .post__box-text, .btn__yellow, .header__news-fon .new-text, .menu__list-linkk {
+  font-weight: 700;
+  font-family: "Sen", sans-serif;
+  line-height: 1.3;
+}
+
+footer {
+  background-color: #232536;
+}
+footer .header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__news {
+  margin-bottom: 48px;
+}
+
+.header__news-fon {
+  padding: 80px 64px;
+  display: flex;
+  gap: 15px;
+}
+.header__news-fon .new-text {
+  color: #fff;
+  font-size: 36px;
+}
+
+.form .form__input {
+  border: 1px solid #4C4C4C;
+  background-color: transparent;
+  padding: 14px 162px 14px 24px;
+  margin-right: 24px;
+}
+.form .form__btn {
+  background-color: #FFD050;
+  color: #232536;
+  padding: 16px 48px;
+}
+
+.header__sochial {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 56px;
+}
+.header__sochial .header__footer-icon {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.section__body .section__body-tytle, .about-about .about-tytle, .back-body .back-data, .article-body .body-data, .texts .tytle, .us__body .us__body-tytle, .post__box .post__box-tytle {
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  line-height: 1.3;
+  color: #232536;
+}
+
+.testy-box__one .box__one-tytle, .history__body .history__body-tytle, .texts .tytle .tytle-it, .misia__body .misia__body-tytle, .startup-body .startup-body__tytle {
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  line-height: 1.3;
+  color: #232536;
+}
+
+.join-box .join__tytle, .box__three__tolpa .three-park__tytle, .testy-box__three .box__three, .testy-box__one .box__one-text, .company-box .company__text, .section-tytle, .history__body .history__body-text, .featurs-box .box-tytle, .featurs-tytle, .about-about .about-salka, .about-about .about-text, .back-body .back-text, .back .track .back-tytle, .article-body .body-text, .article-tytle, .texts .top-text, .team__box .team__box-text, .team__box .team__box-tytle, .misia__body .misia__body-text, .us__body .us__body-text, .startup-body .startup-body__text, .startup-tytle, .post__box .post__box-text, .btn__yellow, .menu__list-linkk, .header__news-fon .new-text {
+  font-weight: 700;
+  font-family: "Sen", sans-serif;
+  line-height: 1.3;
+  color: #232536;
+}
+
+.btn__yellow {
+  padding: 16px 48px;
+  background-color: #FFD050;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.section__body .section__body-tytle, .about-about .about-tytle, .back-body .back-data, .article-body .body-data, .texts .tytle, .us__body .us__body-tytle, .post__box .post__box-tytle {
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  line-height: 1.3;
+}
+
+.testy-box__one .box__one-tytle, .history__body .history__body-tytle, .texts .tytle .tytle-it, .misia__body .misia__body-tytle, .startup-body .startup-body__tytle {
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  line-height: 1.3;
+}
+
+.join-box .join__tytle, .box__three__tolpa .three-park__tytle, .testy-box__three .box__three, .testy-box__one .box__one-text, .company-box .company__text, .section-tytle, .history__body .history__body-text, .featurs-box .box-tytle, .featurs-tytle, .about-about .about-salka, .about-about .about-text, .back-body .back-text, .back .track .back-tytle, .article-body .body-text, .article-tytle, .texts .top-text, .team__box .team__box-text, .team__box .team__box-tytle, .misia__body .misia__body-text, .us__body .us__body-text, .startup-body .startup-body__text, .startup-tytle, .post__box .post__box-text, .menu__list-linkk, .header__news-fon .new-text, .btn__yellow {
+  font-weight: 700;
+  font-family: "Sen", sans-serif;
+  line-height: 1.3;
+}
+
+.post {
+  padding-bottom: 64px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.post__telo {
+  padding: 80px;
+  background-color: #F4F0F8;
+}
+
+.post__telo-item {
+  display: flex;
+  gap: 141px;
+}
+
+.post__box .post__box-tytle {
+  text-transform: uppercase;
+}
+.post__box .post__box-text {
+  font-size: 36px;
+  max-width: 625px;
+  margin-top: 20px;
+}
+.post__box .post__box-data {
+  font-size: 14px;
+  margin-top: 16px;
+}
+.post__box .post__box-paras {
+  color: #6D6E76;
+  max-width: 625px;
+  margin-top: 16px;
+}
+.post__box .post__box-btn {
+  margin-top: 32px;
+}
+
+.startup {
+  padding-bottom: 168px;
+}
+
+.startup-tytle {
+  font-size: 48px;
+}
+
+.startup-hr {
+  max-width: 1282px;
+  color: #6D6E76;
+  margin-top: 32px;
+}
+
+.startup-box {
+  margin-top: 64px;
+  display: flex;
+  gap: 32px;
+}
+
+.startup-body .startup-body__tytle {
+  text-transform: uppercase;
+  color: #592EA9;
+}
+.startup-body .startup-body__text {
+  max-width: 603px;
+  font-size: 36px;
+  margin-top: 20px;
+}
+.startup-body .startup-body__paras {
+  margin-top: 16px;
+  max-width: 625px;
+  color: #6D6E76;
+}
+
+.featurs {
+  padding-bottom: 128px;
+}
+
+.us {
+  padding-top: 80px;
+  padding-bottom: 128px;
+}
+
+.us-pack {
+  display: flex;
+  gap: 32px;
+  padding-left: 100px;
+  align-items: center;
+  z-index: 5;
+}
+
+.us__body {
+  z-index: 10;
+  background-color: #fff;
+  padding: 64px;
+}
+.us__body .us__body-text {
+  font-size: 48px;
+  max-width: 500px;
+}
+
+.us__telo .us__telo-text {
+  color: #4C4C4C;
+  max-width: 477px;
+}
+
+.us-img {
+  position: relative;
+  z-index: 1;
+  margin-top: -64px;
+}
+
+.misia__pack {
+  padding: 128px 108px 64px;
+  background-color: #F4F0F8;
+  display: flex;
+  gap: 32px;
+}
+
+.misia__body .misia__body-tytle {
+  text-transform: uppercase;
+}
+.misia__body .misia__body-text {
+  max-width: 483px;
+  font-size: 28px;
+  margin-top: 24px;
+}
+.misia__body .misia__body-paras {
+  color: #6D6E76;
+  margin-top: 16px;
+}
+
+.team__park {
+  display: flex;
+  gap: 70px;
+  padding-bottom: 128px;
+}
+
+.team__box .team__box-tytle {
+  font-size: 36px;
+}
+.team__box .team__box-text {
+  font-size: 24px;
+  margin-top: 16px;
+  max-width: 520px;
+}
+.team__box .team__box-paras {
+  max-width: 520px;
+  margin-top: 16px;
+}
+
+.section__body .section__body-tytle, .about-about .about-tytle, .back-body .back-data, .article-body .body-data, .texts .tytle, .post__box .post__box-tytle, .us__body .us__body-tytle {
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  line-height: 1.3;
+}
+
+.testy-box__one .box__one-tytle, .history__body .history__body-tytle, .texts .tytle .tytle-it, .startup-body .startup-body__tytle, .misia__body .misia__body-tytle {
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  line-height: 1.3;
+}
+
+.join-box .join__tytle, .box__three__tolpa .three-park__tytle, .testy-box__three .box__three, .testy-box__one .box__one-text, .company-box .company__text, .section-tytle, .history__body .history__body-text, .featurs-box .box-tytle, .featurs-tytle, .about-about .about-salka, .about-about .about-text, .back-body .back-text, .back .track .back-tytle, .article-body .body-text, .article-tytle, .texts .top-text, .menu__list-linkk, .header__news-fon .new-text, .btn__yellow, .post__box .post__box-text, .startup-tytle, .startup-body .startup-body__text, .us__body .us__body-text, .misia__body .misia__body-text, .team__box .team__box-tytle, .team__box .team__box-text {
+  font-weight: 700;
+  font-family: "Sen", sans-serif;
+  line-height: 1.3;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 1.3;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.btn__yellow {
+  padding: 16px 48px;
+  background-color: #FFD050;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.fontemn {
+  position: absolute;
+  display: none;
+}
+
+.topheader {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.texts {
+  position: absolute;
+  z-index: 5;
+  padding-top: 128px;
+  padding-left: 81px;
+}
+.texts .tytle {
+  text-transform: uppercase;
+  display: flex;
+  gap: 5px;
+  color: white;
+}
+.texts .top-text {
+  color: white;
+  margin-top: 24px;
+  font-size: 56px;
+}
+.texts .duis {
+  color: #fff;
+  margin-top: 16px;
+}
+.texts .it {
+  margin-top: 48px;
+}
+
+.data-text {
+  color: #fff;
+  margin-top: 24px;
+}
+
+.article {
+  padding-top: 128px;
+  padding-bottom: 151px;
+}
+
+.article-tytle {
+  font-size: 36px;
+  color: #232536;
+  margin-bottom: 32px;
+}
+
+.article-body {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 32px;
+}
+.article-body .body-data {
+  font-size: 14px;
+  margin-top: 32px;
+}
+.article-body .body-text {
+  font-size: 28px;
+  margin-top: 16px;
+}
+.article-body .body-para {
+  color: #6D6E76;
+  margin-top: 16px;
+}
+.article-body .body-btn {
+  margin-top: 32px;
+}
+
+.dlz {
+  display: flex;
+  gap: 32px;
+}
+
+.back .track {
+  display: flex;
+  justify-content: space-between;
+}
+.back .track .back-tytle {
+  font-size: 36px;
+}
+.back .track .back-vew {
+  color: #592EA9;
+}
+
+.back-body {
+  padding: 32px 32px 25px 32px;
+}
+.back-body .back-data {
+  font-size: 14px;
+}
+.back-body .back-text {
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.body-img {
+  max-width: 669px;
+  width: 100%;
+}
+
+.back-body:hover {
+  background-color: #FBF6EA;
+}
+
+.about {
+  padding-bottom: 128px;
+}
+
+.about__pack {
+  padding: 96px 80px;
+  background-color: #F4F0F8;
+  display: flex;
+  gap: 80px;
+}
+
+.about-about .about-text {
+  font-size: 36px;
+  margin-top: 28px;
+}
+.about-about .about-item {
+  margin-top: 16px;
+}
+.about-about .about-salka {
+  display: inline-block;
+  font-size: 18px;
+  color: #592EA9;
+  margin-top: 16px;
+}
+
+.about-text {
+  font-size: 28px;
+}
+
+.featurs {
+  padding-bottom: 128px;
+}
+
+.featurs-tytle {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+}
+
+.boxses {
+  display: flex;
+  gap: 32px;
+}
+
+.featurs-box {
+  margin-top: 48px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 32px;
+}
+.featurs-box .box-tytle {
+  font-size: 28px;
+  margin-top: 16px;
+}
+.featurs-box .box-poi {
+  margin-top: 4px;
+  color: #6D6E76;
+}
+
+.featurs-box:hover {
+  background-color: #FFD050;
+}
+
+.history {
+  padding-bottom: 128px;
+}
+
+.history-tot {
+  max-width: 949px;
+  height: 747px;
+}
+
+.passat {
+  position: relative;
+}
+
+.history-img {
+  position: relative;
+  width: 100%;
+}
+
+.history__body {
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  bottom: 0;
+  padding: 80px;
+  background-color: #fff;
+}
+.history__body .history__body-text {
+  font-size: 48px;
+  margin-top: 24px;
+}
+.history__body .history__body-para {
+  color: #6D6E76;
+  margin-top: 16px;
+}
+.history__body .disc {
+  margin-top: 32px;
+}
+
+.section {
+  padding-bottom: 96px;
+}
+
+.section-tytle {
+  text-align: center;
+  font-size: 36px;
+}
+
+.section-park {
+  margin-top: 48px;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__body {
+  cursor: pointer;
+  display: inline-block;
+  padding: 40px 50px;
+  background-color: #F4F4F4;
+  text-align: center;
+}
+.section__body .section__body-tytle {
+  font-size: 28px;
+  margin-top: 20px;
+}
+.section__body .section__body-paras {
+  font-size: 14px;
+  color: #6D6E76;
+}
+.section__body .section__body-box {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.section__body:hover {
+  background-color: #FBF6EA;
+}
+
+.section-park {
+  display: flex;
+  gap: 32px;
+}
+
+.company {
+  padding-bottom: 96px;
+}
+
+.company-tytle {
+  font-size: 14px;
+  color: #6D6E76;
+}
+
+.company-box {
+  display: flex;
+  gap: 86px;
+  align-items: baseline;
+}
+.company-box .company__text {
+  color: #6D6E76;
+  font-size: 24px;
+}
+
+.testy {
+  padding-bottom: 128px;
+}
+
+.testy-box {
+  display: flex;
+  gap: 80px;
+  padding: 92px 111px 75px;
+  background-color: #FBF6EA;
+}
+
+.testy-box__one {
+  max-width: 350px;
+}
+.testy-box__one .box__one-text {
+  font-size: 36px;
+  margin-top: 12px;
+}
+.testy-box__one .box__one-paras {
+  color: #232536;
+  margin-top: 16px;
+}
+
+.testy-box__three .box__three {
+  font-size: 24px;
+  max-width: 469px;
+}
+
+.box__three-park {
+  display: flex;
+  margin-top: 121px;
+  gap: 16px;
+}
+
+.box__three__tolpa .three-park__tytle {
+  font-size: 24px;
+}
+.box__three__tolpa .three-park__text {
+  color: #6D6E76;
+}
+
+.join {
+  padding-bottom: 128px;
+}
+
+.join-box {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 450px;
+}
+.join-box .join__tytle {
+  font-size: 36px;
+}
+.join-box .join__text {
+  color: #6D6E76;
+  margin-top: 16px;
+}
+.join-box .join__btn {
+  margin-top: 32px;
+  width: 50%;
+}
+
+.three-park__img {
+  width: 100%;
+}
+
+.menu__btn {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
+.menu__btn span {
+  height: 2px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.opopopo {
+  margin-top: 10rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+}
+
+.us-img__icon {
+  width: 100%;
+}
+
+.team__box-img {
+  width: 100%;
+}
+
+@media (max-width: 1267px) {
+  .company-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1000px) {
+  .dlz {
+    flex-direction: column;
+  }
+  .back-body__park {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-park {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .post__box .post__box-text {
+    font-size: 22px;
+  }
+  .post__box .post__box-paras {
+    font-size: 14px;
+  }
+  .team__park {
+    flex-direction: column;
+  }
+}
+@media (max-width: 873px) {
+  .about-about .about-text {
+    font-size: 26px;
+  }
+  .boxses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .history__body {
+    right: 15rem;
+    padding: 19px;
+    left: 0;
+  }
+  .history__body .history__body-text {
+    font-size: 28px;
+  }
+  .history__body .history__body-para {
+    font-size: 15px;
+  }
+  .testy-box__one .box__one-text {
+    font-size: 24px;
+  }
+  .testy-box__one .box__one-paras {
+    font-size: 15px;
+  }
+  .testy-box__three .box__three {
+    font-size: 15px;
+  }
+  .post__paket-img {
+    width: 100%;
+  }
+  .post__paket-img {
+    display: none;
+  }
+  .startup-body .startup-body__text {
+    font-size: 22px;
+  }
+  .us__body {
+    display: none;
+  }
+}
+@media (max-width: 649px) {
+  .about__pack {
+    flex-direction: column;
+  }
+  .history__body .history__body-text {
+    font-size: 28px;
+  }
+  .history__body .history__body-para {
+    font-size: 15px;
+  }
+  .history__body {
+    right: 0;
+  }
+  .company-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .testy-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .testy-box__two {
+    display: none;
+  }
+  .menu__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .header__news-fon .new-text {
+    font-size: 19px;
+  }
+  .header {
+    z-index: 10;
+  }
+  .menu__btn {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+  }
+  .menu__btn,
+  .logo {
+    position: relative;
+    z-index: 14;
+  }
+  .menu__list {
+    z-index: 10;
+    position: absolute;
+    z-index: 5;
+    background-color: #151515;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    padding-top: 200px;
+    height: 100vh;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+  }
+  .menu__list.menu__list--active {
+    transform: translateY(0);
+  }
+  .startup-box {
+    flex-direction: column;
+  }
+  .us__telo {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .texts .top-text {
+    font-size: 28px;
+  }
+  .back-body__park {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-about .about-text {
+    font-size: 15px;
+  }
+  .about-about .about-item {
+    font-size: 15px;
+  }
+  .boxses {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section-park {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .company-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .testy-box__one .box__one-text {
+    font-size: 15px;
+  }
+  .testy-box__one .box__one-paras {
+    font-size: 11px;
+  }
+  .testy-box__three .box__three {
+    font-size: 11px;
+  }
+  footer .header__inner .logo {
+    display: none;
+  }
+  .header__news-fon {
+    flex-direction: column;
+  }
+  .header__news-fon {
+    padding: 0;
+  }
+  .post__box .post__box-text {
+    font-size: 17px;
+  }
+  .post__box .post__box-paras {
+    font-size: 10px;
+  }
+  .misia__pack {
+    flex-direction: column;
+  }
+  .misia__body .misia__body-text {
+    font-size: 15px;
+  }
+  .misia__body .misia__body-paras {
+    font-size: 14px;
+  }
+  .misia__pack {
+    padding: 50px 10px 30px;
+  }
+}/*# sourceMappingURL=main.css.map */
