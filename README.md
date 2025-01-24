@@ -1,2 +1,2 @@
-# prime2
-my prime2
+# landing 2
+Верстка сайта с использование HTML,SCSS,JS,GULP
